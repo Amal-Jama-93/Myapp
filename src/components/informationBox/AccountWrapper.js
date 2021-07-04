@@ -14,10 +14,14 @@ const INITIAL_ACCOUNTS = [
   {
     title: "My Business Account",
     balance: { amount: 500, currency: "EURO" },
+    amount: 200,
+    currency: "$",
   },
   {
     title: "Personal Safe",
     balance: { amount: 100, currency: "£" },
+    amount: "0",
+    currency: "YEN",
   },
 
   {

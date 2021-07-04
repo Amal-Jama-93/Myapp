@@ -14,6 +14,14 @@ function AccountItemList(props) {
       <div className="balance ">
         <span className="amount">{props.balance.amount}</span>
         <span className="currency">{props.balance.currency}</span>
+
+        <span className={props.amount ? "amount" : "hidden"}>
+          {props.amount}
+        </span>
+
+        <span className={props.currency ? "currency" : "hidden"}>
+          {props.currency}
+        </span>
       </div>
     </li>
   );

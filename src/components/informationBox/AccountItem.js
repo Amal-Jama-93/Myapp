@@ -11,6 +11,8 @@ function AccountItem(props) {
         <div className="items">
           <AccountItemList
             balance={account.balance}
+            amount={account.amount}
+            currency={account.currency}
             title={account.title}
             note={account.note}
           />
