@@ -1,0 +1,64 @@
+.nav {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgb(27, 106, 175),
+    rgb(36, 135, 221)
+  );
+}
+
+.header_btn {
+  outline: none;
+  /* background-color: cadetblue; */
+  padding: 13px;
+  margin-left: 48%;
+  border-radius: 5px;
+  border: white 1px solid;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.header_logo {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.img {
+  /* border: 1px solid rebeccapurple; */
+  height: 30px;
+  width: 30px;
+  background-image: url("../../images/setting2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 867px) {
+  .img {
+    display: none;
+  }
+
+  .header_logo {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 747px) {
+  .img {
+    display: none;
+  }
+
+  .header_btn {
+    font-size: 12px;
+  }
+}
